@@ -29,7 +29,7 @@ def plotter(** choices):
     E = [0.0, 2.1, 4.0, 6.3]
 
     plt.scatter(F, L, color = 'red')
-    plt.grid(color='grey')
+    plt.grid(color='black')
     plt.title(choices[1], color='blue')
     plt.ylabel('Extension/cm', color = 'blue')
     plt.xlabel('Force/N', color = 'blue')
