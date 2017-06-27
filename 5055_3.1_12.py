@@ -48,13 +48,15 @@ def plotter(** choices):
     # Fourth response
     plt.subplot(2, 2, 1)
 
+    # Personalise the display parameters
     plt.scatter([F,], [L,], 30, color = 'red')
     plt.grid(color='grey')
     plt.title(choices[0], color='blue')
     plt.ylabel('Extension/cm', color = 'blue')
     plt.xlabel('Force/N', color = 'blue')
 
-    plt.tight_layout(pad = 1.08)
+    plt.tight_layout(pad = 1.06)
     plt.show()
+    plt.close()
 
 plotter()
