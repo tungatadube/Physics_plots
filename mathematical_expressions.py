@@ -16,4 +16,3 @@ y= 0 + 0*x
 plt.plot(x,y, lw=0.5, color='red')
 plt.ylim(-2,2)
 plt.show()
-plt.close()
