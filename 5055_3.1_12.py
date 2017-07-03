@@ -22,7 +22,7 @@ def plotter(** choices):
     plt.xlabel('Force/N', color = 'blue')
     
 
-    # Second response
+    # Second responses
     plt.subplot(2, 2, 2)
     F = [0, 10, 20, 30]
     L = [50.0, 53.1, 54.1, 56.3]
@@ -34,7 +34,7 @@ def plotter(** choices):
     plt.ylabel('Extension/cm', color = 'blue')
     plt.xlabel('Force/N', color = 'blue')
 
-    # Third response
+    # Third responses
     plt.subplot(2, 2, 3)
     F = [0, 10, 20, 30]
     L = [50.0, 52.1, 54.1, 56.3]
@@ -45,7 +45,7 @@ def plotter(** choices):
     plt.ylabel('Extension/cm', color = 'blue')
     plt.xlabel('Force/N', color = 'blue')
 
-    # Fourth response
+    # Fourth responses
     plt.subplot(2, 2, 1)
 
     # Personalise the display parameters
